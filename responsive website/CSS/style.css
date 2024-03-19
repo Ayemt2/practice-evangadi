@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+}
+.center {
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+}
+.para-container p {
+    margin: 2%;
+}
+.image-1 {
+    background-image: url(../images/imageOne.jpg);
+    
+}
+.image-2 {
+    background-image: url(../images/imageTwo.jpg);
+}
+.all-images {
+    height: 450px;
+    background-size: cover;
+    width: auto;
+    margin: 2%;
+}
+/* MEDIA QUERY */
+@media (min-width: 700px) {
+    .para-container {
+        display: flex;
+    }
+    .p2 {
+        display: none;
+    }
+    .all-images {
+        display: flex;
+    }
+    .image-2 {
+        background-image: url(../images/imageTwo.jpg)
+    }
+
+}
